@@ -1,0 +1,286 @@
+.logo {
+  padding: 1.5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffffffaa);
+}
+
+.login:hover {
+  filter: drop-shadow(0 0 4em #39ff03aa);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+}
+
+.header a{
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.menu{
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1ED760;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.lefter-container p{
+  font-size: 35px;
+}
+
+.lefter-container .green{
+  margin-left:1vw;
+}
+
+.green{
+  color:#1ED760;
+}
+
+.lefter{
+  display:flex;
+}
+
+.intro-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading1{
+  display: flex;
+  justify-content: center;
+}
+
+.PopSongs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.loggedinpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout-button{
+  background-color: #12251A;
+  color:#1ED760;
+  border:0;
+  width: 101px;
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Gilroy';
+  border-radius: 12px;
+  filter: drop-shadow(0 0 4em #39ff03aa);
+  text-align: center;
+}
+
+.login-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.CreateAcc{
+  display: flex;
+  margin-top: 4vh;
+  background-color: #12251A;
+  color:#1ED760;
+  border:0;
+  width: 150px;
+  height: 60px;
+  font-size: 18px;
+  font-family: 'Gilroy';
+  border-radius: 12px;
+  filter: drop-shadow(0 0 4em #39ff03aa);
+  text-align: center;
+  align-items: center;
+}
+
+input[type=text]{
+    background-color: #12251A;
+    color: #1ED760;
+    border: 0;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 0 4px #39ff03aa;
+}
+
+input[type=email]{
+  background-color: #12251A;
+  color: #1ED760;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Gilroy';
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 0 4px #39ff03aa;
+}
+
+input[type=password]{
+  background-color: #12251A;
+  color: #1ED760;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Gilroy';
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 0 4px #39ff03aa;
+}
+
+.aw-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aw-details{
+  width: 50%;
+}
+
+.aw-image{
+  width: 400px;
+}
+
+.aw-description{
+  width:60%;
+}
+
+.interaction-button{
+  background-color: transparent;
+  border:0;
+}
+
+.interaction-image{
+  width:30%;
+}
+
+.interaction{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.createart{
+  display: flex;
+  margin-top: 4vw;
+  justify-content: center;
+  filter: drop-shadow(0 0 4em #39ff03aa);
+}
+
+.create-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultss{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-below{
+  display: flex;
+  margin-top: 4vh;
+}
+
+.finder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-below{
+  display: flex;
+  margin-top: 4vh;
+  background-color: #12251A;
+  color:#1ED760;
+  border:0;
+  width: 150px;
+  height: 60px;
+  font-size: 18px;
+  font-family: 'Gilroy';
+  border-radius: 12px;
+  filter: drop-shadow(0 0 4em #39ff03aa);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-contcont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select{
+  background-color: #12251A;
+  color: #1ED760;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Gilroy';
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 0 4px #39ff03aa;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+footer p{
+  margin-bottom: 0;
+}
